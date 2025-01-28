@@ -5,12 +5,11 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <PublishAot>true</PublishAot>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OneBRC.Shared\OneBRC.Shared.csproj" />
+    <PackageReference Include="NBomber" Version="5.8.2" />
+    <PackageReference Include="NBomber.Http" Version="5.2.1" />
   </ItemGroup>
 
 </Project>

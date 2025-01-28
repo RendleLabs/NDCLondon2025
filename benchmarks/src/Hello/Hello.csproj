@@ -5,12 +5,8 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <PublishAot>true</PublishAot>
+    <InvariantGlobalization>true</InvariantGlobalization>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\OneBRC.Shared\OneBRC.Shared.csproj" />
-  </ItemGroup>
 
 </Project>

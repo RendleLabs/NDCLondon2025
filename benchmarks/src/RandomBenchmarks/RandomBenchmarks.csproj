@@ -2,15 +2,16 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
+<!--    <TargetFrameworks>net48;net8.0;net9.0</TargetFrameworks>-->
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <PublishAot>true</PublishAot>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OneBRC.Shared\OneBRC.Shared.csproj" />
+    <PackageReference Include="benchmarkdotnet" Version="0.14.0" />
+    <PackageReference Include="Microsoft.Extensions.ObjectPool" Version="9.0.1" />
   </ItemGroup>
 
 </Project>
